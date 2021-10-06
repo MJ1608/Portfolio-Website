@@ -12,7 +12,6 @@
   text-decoration: none;
   outline: none;
   border: none;
-  text-transform: capitalize;
   transition: all .2s linear;
 }
 
@@ -331,7 +330,7 @@ header .navbar ul li a:hover {
 }
 
 .skills__jquery {
-  width: 90%;
+  width: 85%;
 }
 
 .skills__css {
@@ -339,23 +338,20 @@ header .navbar ul li a:hover {
 }
 
 .skills__js {
-  width: 80%;
+  width: 75%;
 }
 
 .skills__nodejs {
-  width: 85%;
-}
-
-.skills__reactjs {
   width: 80%;
 }
+
 
 .skills__mongodb {
   width: 85%;
 }
 
 .skills__express {
-  width: 80%;
+  width: 85%;
 }
 
 .skills__c {
@@ -367,7 +363,7 @@ header .navbar ul li a:hover {
 }
 
 .skills__python {
-  width: 85%;
+  width: 80%;
 }
 
 .skills__bootstrap {
@@ -382,11 +378,21 @@ header .navbar ul li a:hover {
 
 .card {
   text-align: center;
-  margin: 6% 14% auto;
+  margin: 10% auto auto;
   background: #1a1a1a;
   color: #fff;
   line-height: 1.5;
   border-radius:15px;
+}
+
+.lcard{
+  margin-left: 10%;
+  margin-right: 5%;
+}
+
+.rcard{
+  margin-left: 5%;
+  margin-right: 10%;
 }
 
 .card-btn {
@@ -547,8 +553,10 @@ footer {
   }
 
   .card{
-    margin: 5% 20% auto;
+    margin: 5% 10% auto;
   }
+
+
 
   .contact .row .content {
     padding:0;
@@ -571,6 +579,7 @@ footer {
   .education .box-container .box{
     margin: 4rem 16rem ;
   }
+
 
   .cert-img {
     width: 70%;
