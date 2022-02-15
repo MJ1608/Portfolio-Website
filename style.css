@@ -341,18 +341,7 @@ header .navbar ul li a:hover {
   width: 75%;
 }
 
-.skills__nodejs {
-  width: 80%;
-}
 
-
-.skills__mongodb {
-  width: 85%;
-}
-
-.skills__express {
-  width: 85%;
-}
 
 .skills__c {
   width: 90%;
@@ -362,9 +351,7 @@ header .navbar ul li a:hover {
   width: 80%;
 }
 
-.skills__python {
-  width: 80%;
-}
+
 
 .skills__bootstrap {
   width: 90%;
